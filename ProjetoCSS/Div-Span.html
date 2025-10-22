@@ -8,6 +8,44 @@
         #topo{
             background: #233141;
             color: white;
+            border-bottom: 5px solid orange;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 20px;
+        }
+
+        #conteudo{
+            background: lightgray;
+            color: black;
+            font-size: 20px;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        #rodape{
+            background: #233141;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .botoes{
+            background: #2a3b50 ;
+            color: white;
+            padding: 10px;
+            border-radius: 12px;
+            border: 2px solid black;
+            display: inline-block;
+            margin: 5px;
+            font: bold 16px montserrat, sans-serif;
+        }
+        .produto {
+            background: white;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
         }
     </Style>
 </head>
@@ -18,11 +56,29 @@
         <img src="../imagens/logo.jpg" alt="logo_amazon" width="200px">
         
             <ul>
-                <li>home</li>
-                <li>Serviços</li>
-                <li>Contato</li>
+                <li class="botoes">home</li>
+                <li class="botoes">Serviços</li>
+                <li class="botoes">Contato</li>
             </ul>
     </div>
+
+    <div id="conteudo">
+        <div class="produto">
+            produto 1
+        </div>
     
+        <div class="produto">
+            produto 2
+        </div>
+        
+        <div class="produto">
+            produto 3
+        </div>
+    </div>
+    <div id="rodape">
+
+        todos os direitos reservados - 2025
+
+    </div>
 </body>
 </html>
